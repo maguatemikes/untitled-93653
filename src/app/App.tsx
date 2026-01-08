@@ -18,7 +18,7 @@ const WORDPRESS_API_BASE = "https://michael.airtime.cc/wp-json/custom/v1";
 
 // Site ID - n8n will replace this during deployment
 // For local testing, use ?id=YOUR_SITE_ID in the URL
-const SITE_ID = "REPLACE_WITH_SITE_ID";
+const SITE_ID = "93653";
 
 export default function App() {
   const [contentData, setContentData] = useState<any>(defaultContent);
